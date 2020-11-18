@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{CC40E4BB-31AF-4206-B29A-2AF40738719B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{424E2FB6-E474-4A75-8120-662B3269B603}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2925BB08-DE17-48C7-BBED-F54D35CD98E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{72B30ED7-06C2-4E48-B1C7-4BD87834E17E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{F02C17D0-24F5-41B7-9DFF-CAE27D770666}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "transform", "transform", "{027AF190-6647-47ED-B49D-69FC6974CDA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork.NTier.ERP.App", "src\HomeWork.NTier.ERP.App\HomeWork.NTier.ERP.App.csproj", "{AB9695B7-6636-456D-A240-2ADA4C3528FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork.NTier.ERP.Data.Entities", "src\data\HomeWork.NTier.ERP.Data.Entities\HomeWork.NTier.ERP.Data.Entities.csproj", "{2098B0D1-BCFA-4701-803F-0434E812946C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork.NTier.ERP.Data.Access", "src\data\HomeWork.NTier.ERP.Data.Access\HomeWork.NTier.ERP.Data.Access.csproj", "{052BEB5A-C088-47C7-88F6-E02757D133B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork.NTier.ERP.Data.Context", "src\data\HomeWork.NTier.ERP.Data.Context\HomeWork.NTier.ERP.Data.Context.csproj", "{D66FF5D7-1694-413D-A3DA-E2FFC5A57DE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork.NTier.ERP.Dto.Products", "src\transform\HomeWork.NTier.ERP.Dto.Products\HomeWork.NTier.ERP.Dto.Products.csproj", "{ED204BE7-37E3-4E1B-8986-2E143D19A11F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork.NTier.ERP.Dto.Employees", "src\transform\HomeWork.NTier.ERP.Dto.Employees\HomeWork.NTier.ERP.Dto.Employees.csproj", "{A02389D7-4911-4B8B-BC6B-88812FECC0B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork.NTier.ERP.Service.Products", "src\services\HomeWork.NTier.ERP.Service.Products\HomeWork.NTier.ERP.Service.Products.csproj", "{92A4157C-6B93-44A3-99D3-FDFAE0418342}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB9695B7-6636-456D-A240-2ADA4C3528FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB9695B7-6636-456D-A240-2ADA4C3528FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB9695B7-6636-456D-A240-2ADA4C3528FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB9695B7-6636-456D-A240-2ADA4C3528FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2098B0D1-BCFA-4701-803F-0434E812946C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2098B0D1-BCFA-4701-803F-0434E812946C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2098B0D1-BCFA-4701-803F-0434E812946C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2098B0D1-BCFA-4701-803F-0434E812946C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{052BEB5A-C088-47C7-88F6-E02757D133B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{052BEB5A-C088-47C7-88F6-E02757D133B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{052BEB5A-C088-47C7-88F6-E02757D133B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{052BEB5A-C088-47C7-88F6-E02757D133B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D66FF5D7-1694-413D-A3DA-E2FFC5A57DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D66FF5D7-1694-413D-A3DA-E2FFC5A57DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D66FF5D7-1694-413D-A3DA-E2FFC5A57DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D66FF5D7-1694-413D-A3DA-E2FFC5A57DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED204BE7-37E3-4E1B-8986-2E143D19A11F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED204BE7-37E3-4E1B-8986-2E143D19A11F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED204BE7-37E3-4E1B-8986-2E143D19A11F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED204BE7-37E3-4E1B-8986-2E143D19A11F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A02389D7-4911-4B8B-BC6B-88812FECC0B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A02389D7-4911-4B8B-BC6B-88812FECC0B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A02389D7-4911-4B8B-BC6B-88812FECC0B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A02389D7-4911-4B8B-BC6B-88812FECC0B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92A4157C-6B93-44A3-99D3-FDFAE0418342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92A4157C-6B93-44A3-99D3-FDFAE0418342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92A4157C-6B93-44A3-99D3-FDFAE0418342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92A4157C-6B93-44A3-99D3-FDFAE0418342}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{72B30ED7-06C2-4E48-B1C7-4BD87834E17E} = {424E2FB6-E474-4A75-8120-662B3269B603}
+		{F02C17D0-24F5-41B7-9DFF-CAE27D770666} = {424E2FB6-E474-4A75-8120-662B3269B603}
+		{027AF190-6647-47ED-B49D-69FC6974CDA1} = {424E2FB6-E474-4A75-8120-662B3269B603}
+		{AB9695B7-6636-456D-A240-2ADA4C3528FE} = {424E2FB6-E474-4A75-8120-662B3269B603}
+		{2098B0D1-BCFA-4701-803F-0434E812946C} = {72B30ED7-06C2-4E48-B1C7-4BD87834E17E}
+		{052BEB5A-C088-47C7-88F6-E02757D133B4} = {72B30ED7-06C2-4E48-B1C7-4BD87834E17E}
+		{D66FF5D7-1694-413D-A3DA-E2FFC5A57DE1} = {72B30ED7-06C2-4E48-B1C7-4BD87834E17E}
+		{ED204BE7-37E3-4E1B-8986-2E143D19A11F} = {027AF190-6647-47ED-B49D-69FC6974CDA1}
+		{A02389D7-4911-4B8B-BC6B-88812FECC0B0} = {027AF190-6647-47ED-B49D-69FC6974CDA1}
+		{92A4157C-6B93-44A3-99D3-FDFAE0418342} = {F02C17D0-24F5-41B7-9DFF-CAE27D770666}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F05DAC2-88A9-4D0B-AD20-778404D12D6F}
+	EndGlobalSection
+EndGlobal
